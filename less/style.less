@@ -1,0 +1,73 @@
+// "out": "../css/style.css"
+
+.main {
+   width: 80%;
+	margin: 50px auto;
+   box-shadow:  0 0 10px 5px rgba(221, 221, 221, 1);
+   section {
+      padding: 30px 80px;
+      h2 {
+         font-family: 'Playfair Display', serif;
+      	font-size: 42px;
+      	margin-bottom: 20px;
+
+      }
+
+      p {
+         color: #5c5c5c;
+         font-family: 'Lato', sans-serif;
+      	font-size: 18px;
+      	margin-bottom: 35px;
+      	line-height: 34px;
+
+         &:nth-of-type(1) {
+            &::first-letter {
+               color: #000;
+               font-size: 110px;
+            	float: left;
+            	font-weight: 400;
+            	margin: 30px 30px 15px 0;
+            	font-family: 'Playfair Display', serif;
+            }
+
+         }
+
+      }
+
+      .quote {
+         color: #5c5c5c;
+         display: block;
+      	font-size: 24px;
+         font-family: 'Lato', sans-serif;
+      	font-style: italic;
+         &::before {
+            content: "“";
+            font-size: 50px;
+         	margin-right: 20px;
+         }
+
+      }
+
+      button {
+         margin-top: 20px;
+         border: 3px solid #eaa258;
+         background-color: #fff;
+         padding: 30px 130px;
+         outline: none;
+         cursor: pointer;
+      	color: #eaa258;
+      	font-family: 'Lato', sans-serif;
+      	font-size: 18px;
+      	text-decoration: none;
+      	transition: 0.3s;
+         box-shadow: 3px 6px 6px #989898;
+         &:active {
+            transform: translate(6px; 6px);
+            box-shadow: none;
+         }
+
+      }
+
+   }
+
+}
